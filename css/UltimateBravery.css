@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+#content{
+  width: 60%;
+  background-color: white;
+  box-shadow: 5px 10px 15px black;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+#content h1{
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+  background-color: #16a085;
+  color: white;
+  padding: 30px 0px;
+}
+#basic h2{
+  font-size: 30px;
+  line-height: 10px;
+  text-align: center;
+}
+#basic_images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin: 50px auto;
+}
+#champ_spells{
+  display: flex;
+  flex-direction: row;
+}
+#champ_avatar{
+  width: 120px;
+  height: 128px;
+}
+#spells_images{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#allItems{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-left: 100px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+#allItems img{
+  width: 61px;
+  height: 61px;
+}
+
+#content p{
+  margin: 150px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Comic sans ms";
+}
