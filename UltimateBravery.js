@@ -26,7 +26,8 @@ allItems = ["Ange_gardien", "Bâton_de_l'archange", "Bâton_du_vide", "Bâton_s�
 
 allSpells = ["Fantôme", "Barrière", "Clarté", "Embrasement", "Fatigue", "Purge", "Saut_Eclair", "Soins"];
 
-allName = ["Bamboo Slayer", "Doggo Doggy", "Did you say dumb ?", "NSFW", "Bloup Bloup", "WIIINNNNW", "Ultimate build", "Why this exist"];
+allName = ["Bamboo Slayer", "Doggo Doggy", "Did you say dumb ?", "NSFW", "Bloup Bloup", "WIIINNNNW", "Ultimate build", "Why this exist",
+            "Can't you tell me nothing", "=))))))))))"];
 
 //generateChamp
 function generateChamp(){
@@ -122,9 +123,13 @@ let item1 = document.querySelector("#item1");
 
 
 bootsAvatar.setAttribute("src", "assets/boots/" + bootsName + ".png");
+bootsAvatar.setAttribute("title", bootsName);
 spell1Avatar.setAttribute("src", "assets/spells/" + spellsName[0] + ".png");
 spell2Avatar.setAttribute("src", "assets/spells/" + spellsName[1] + ".png");
+spell1Avatar.setAttribute("title", spellsName[0]);
+spell2Avatar.setAttribute("title", spellsName[1]);
 champAvatar.setAttribute("src", "assets/champs/" + champName + ".png");
+champAvatar.setAttribute("title", champName);
 
 //stuff images
 for(let i = 0; i < stuff.length; i++){
