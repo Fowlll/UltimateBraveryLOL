@@ -14,6 +14,6 @@ All of these are generated:
 - Boots
 - 5 final items
 
-To see the name of the items, you just have to hover the images and the name will appear.
+To see the name of the items, you just have to hover the images and the names will appears.
 
 Some legends are missing, i will continue to register them lately.
